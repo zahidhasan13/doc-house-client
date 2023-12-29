@@ -1,0 +1,6 @@
+.page-banner {
+  background-image: url("../../assets/page-banner.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
