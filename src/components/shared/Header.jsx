@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 const Header = () => {
   return (
     <header>
-      <nav className="md:bg-transparent border-gray-200 px-4 lg:px-6 py-2.5 dark:md:bg-transparent md:fixed top-0 left-0 right-0 z-40">
+      <nav className="md:bg-transparent border-gray-200 px-4 lg:px-6 py-2.5 dark:md:bg-transparent absolute top-0 left-0 right-0 z-40">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/">
             <img src={logo} className="mr-3 h-6 sm:h-9" alt="Doc House Logo" />
